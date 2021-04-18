@@ -52,7 +52,7 @@ public class Main {
         
         Luta luta = new Luta();
 	
-	// Para fins de teste, utilizei dois lutadores
+	//  Para fins de teste, utilizei apenas dois lutadores
         luta.marcaLuta(vetorLutadores[0], vetorLutadores[1]);
         luta.lutar();
         
