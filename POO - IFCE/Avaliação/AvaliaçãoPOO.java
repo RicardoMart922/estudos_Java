@@ -7,7 +7,7 @@
 * b) A percentagem de aprovação de alunos na prova considerando a nota mínima 6.0;
 * Observação: o gabarito e resposta dos alunos são vetores do tipo char;
 */
-package Avaliação;
+package avaliação;
 
 import java.util.Scanner;
 
