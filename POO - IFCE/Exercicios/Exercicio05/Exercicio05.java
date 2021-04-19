@@ -34,7 +34,7 @@ public class Exercicio05 {
 
         FuncionarioProprio funcionarioProprio = new FuncionarioProprio(nome, horasTrabalhadas, valorHora);
         
-        System.out.printf("-=-=-=-=-==-=-=-=-=-");
+        System.out.printf("-=-=-=-=-==-=-=-=-=-\n");
         // Segundo Funcionário
         System.out.printf("Informe o nome do 2º funcionário: ");
         nome = in.next();
@@ -52,7 +52,7 @@ public class Exercicio05 {
         FuncionarioTerceirizado funcionarioTerceirizado = new FuncionarioTerceirizado(nome, horasTrabalhadas, valorHora, despesa);
         
         // Apresentação do pagamento
-        System.out.printf(">>>=-=-> PAGAMENTOS <-=-=<<<");
+        System.out.printf(">>>=-=-> PAGAMENTOS <-=-=<<<\n");
         funcionarioProprio.status();
       
         funcionarioTerceirizado.status();

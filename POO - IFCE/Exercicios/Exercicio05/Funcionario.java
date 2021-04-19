@@ -42,7 +42,7 @@ public class Funcionario {
         this.valorHora = valor;
     }
     
-    // Método personalizado
+    // Métodos personalizados
     public double pagamentos() {
         double pagamento = this.getValorHora() * this.getHorasTrabalhadas();
         return pagamento;

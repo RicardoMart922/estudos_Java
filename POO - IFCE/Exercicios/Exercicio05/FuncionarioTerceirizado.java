@@ -23,7 +23,7 @@ public class FuncionarioTerceirizado extends Funcionario{
         this.despesaAdicional = despesaAdicional;
     }
     
-    // Métodos personalizados
+    // Método personalizado
     @Override
     public double pagamentos() {
         double pagamento = super.pagamentos() + this.getDespesaAdicional();
