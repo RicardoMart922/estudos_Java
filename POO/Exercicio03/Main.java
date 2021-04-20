@@ -1,6 +1,6 @@
 package exercicio03;
 
-public class Aula09 {
+public class Main {
 
     public static void main(String[] args) {
         Pessoa p = new Pessoa("Ricardo", "M", 20);
