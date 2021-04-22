@@ -22,6 +22,8 @@ public class Exercicio01 {
         subtracao = numero1 - numero2;
         
         System.out.printf("A subtração do número %.2f por %.2f = %.2f\n", numero1, numero2, subtracao);
+
+	in.close();
     }
     
 }
