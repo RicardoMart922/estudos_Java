@@ -84,6 +84,10 @@ public class Main {
             
             if (i == numeroCliente) {
                 for (int j = 0; j < numeroCliente; j++) {
+		    if (j == 0) {
+                        System.out.println();
+                        System.out.printf("Dados dos cliente:\n");
+                    }
                     System.out.printf("Cliente %d:\n", j+1);
                     switch (sequenciaClientes[j]) {
                         case "f":

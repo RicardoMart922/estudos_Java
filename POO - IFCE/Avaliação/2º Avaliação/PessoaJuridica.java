@@ -4,7 +4,7 @@ public class PessoaJuridica extends Cliente {
     private int cnpj;
     
     // Construtores
-    public PessoaJuridica () {
+    public PessoaJuridica() {
     
     }
     
@@ -14,7 +14,6 @@ public class PessoaJuridica extends Cliente {
     }
     
     // Getter
-
     public int getCnpj() {
         return cnpj;
     }

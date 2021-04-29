@@ -6,7 +6,7 @@ public class Cliente {
     private int telefone;
     
     // Construtores
-    public Cliente () {
+    public Cliente() {
     
     }
     
@@ -40,6 +40,5 @@ public class Cliente {
 
     public void setTelefone(int telefone) {
         this.telefone = telefone;
-    }
-    
+    }   
 }
