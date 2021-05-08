@@ -20,7 +20,7 @@ public class Exercicio05 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         
-        double numero1 = 0.00, numero2 = 0.00, resultado = 0.0;
+        double numero1 = 0.00, numero2 = 0.00, resultado = 0.00;
         int opcao = 0;
         
         System.out.printf("1º número: ");
@@ -58,7 +58,7 @@ public class Exercicio05 {
                 break;
             case 4:
                 resultado = numero1 / numero2;
-                System.out.printf("Divição: %.2f\n", resultado);
+                System.out.printf("Divisão: %.2f\n", resultado);
                 break;
             default:
                 System.out.printf("Opção inválida!\n");
