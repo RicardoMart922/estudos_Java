@@ -14,7 +14,7 @@ public class Main {
        Scanner in = new Scanner(System.in);
             
        int numeroImoveis = 0, i = 0;
-       String nomeImovel, tipoImovel;
+       String nomeImovel;
        double precoImovel = 0.00, desconto = 0.00;
        
        Imovel imovelNovo = null;
