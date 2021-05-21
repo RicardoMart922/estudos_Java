@@ -8,10 +8,10 @@ public class main {
         int opcao;
         double valorA = 0.00, valorB = 0.00;
 
-        System.out.printf("Escolha a operação: \n");
-        System.out.printf("(1)Adição        -=- (2)Subtração\n");
-        System.out.printf("(3)Multiplicação -=- (4)Divisaão\n");
-        System.out.printf("(5)Raiz Quadrada -=- (6)Potência\n");
+        System.out.println("Escolha a operação: ");
+        System.out.println("(1)Adição        -=- (2)Subtração");
+        System.out.println("(3)Multiplicação -=- (4)Divisaão");
+        System.out.println("(5)Raiz Quadrada -=- (6)Potência");
         opcao = in.nextInt();
 
         if (opcao == 1) {
