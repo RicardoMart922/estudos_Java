@@ -8,7 +8,7 @@ public class Exercicio01 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         double valor1 = 0.00, valor2 = 0.00, valor3 = 0.00, valor4 = 0.00;
-  
+
         for (int i = 0; i < 5; i++) {
             System.out.printf("%dº GRUPO\n");
 
